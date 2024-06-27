@@ -1,11 +1,9 @@
-import { Footer } from "./Components/Footer";
-import { Navbar } from "./Components/Navbar";
+import { FirstComponent } from "./Components/FirstComponent";
 
 const App = () => {
   return (
     <div>
-      <Navbar />
-      <Footer />
+      <FirstComponent />
     </div>
   );
 };
